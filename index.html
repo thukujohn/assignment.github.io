@@ -6,6 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    <style>
+       @media(max-width: 800px){
+    .left-align{
+      display: none;
+    }}
+    </style>
 <body class="body1">
      
         <div class="left-align">
@@ -42,9 +48,7 @@
           <p>This site is protected by reCAPTCHA and the Google<br> <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
         </div>
       </div>
-      <div>
-        <p class="signIn">Already a member?<a href="#"> Sign in</a></p>
-      </div>
+     
       <script>
         document.getElementById("myForm").addEventListener("submit"),function(event) {
           event.preventDefault();
